@@ -41,7 +41,3 @@ class TelegramBot:
   
   def _parse_messages(self, messages):
     return [Message(data) for data in messages]
-  
-
-bot = TelegramBot()
-bot.start()
